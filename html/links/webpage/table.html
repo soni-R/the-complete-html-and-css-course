@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+</head>
+<body>
+<!-- creating webpage layout using table is not recommended, instead we have to use div tag and style accordingly using css -->
+	<table border="2" width="1000" height="600">
+		<tr>
+			<td colspan="2" height="100"><h1>Heading</h1></td>
+		</tr>
+		<tr>
+			<td colspan="2" height="50">Navigation Area</td>
+		</tr>
+		<tr>
+			<td width="200" valign="top">
+				<a href="index.html">Home Page</a><br>
+				<a href="lists.html">List Page</a><br>
+				<a href="table.html">Table Page</a><br>
+			</td>
+			<td><table border="10">
+		<tr>
+			<th height="40">S.no</th>
+			<th width="200">Name</th>
+			<th width="100">Paid</th>
+			<th width="100">Balance</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Sam</td>
+			<td>400$</td>
+			<td>100$</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Mark</td>
+			<td>300$</td>
+			<td>200$</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>David James</td>
+			<td>350$</td>
+			<td>150$</td>
+		</tr>
+	</table>
+
+	<!-- Table with col span -->
+	<!-- cellspacing and cellpadding attributes are not supported in HTML5
+	cellspacing - space between the cells
+	cellpadding - space between the cell wall and the cell content  -->
+	<table border="1" cellpadding="10" cellspacing="4">
+		<tr>
+			<th rowspan="5">Monthly Report</th>
+			<th height="40" colspan="5">Student Records</th>
+		</tr>
+		<tr>
+			<th height="40">S.no</th>
+			<th width="200">Name</th>
+			<th>Subjects</th>
+			<th width="100">Paid</th>
+			<th width="100">Balance</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Sam</td>
+			<td>
+				<table border="1" cellpadding="5">
+					<tr>
+						<td>English</td>
+						<td>Math</td>
+						<td>Computer</td>
+					</tr>
+					<tr>
+						<td>Physics</td>
+						<td>Chemistry</td>
+						<td>Medical</td>
+					</tr>
+				</table>
+			</td>
+			<td>400$</td>
+			<td>100$</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Mark</td>
+			<td>
+				<table border="1" cellpadding="5">
+					<tr>
+						<td>English</td>
+						<td>Math</td>
+						<td>Computer</td>
+					</tr>
+					<tr>
+						<td>Physics</td>
+						<td>Chemistry</td>
+						<td>Medical</td>
+					</tr>
+				</table>
+			</td>
+			<td>300$</td>
+			<td>200$</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>David James</td>
+			<td>
+				<table border="1" cellpadding="5">
+					<tr>
+						<td>English</td>
+						<td>Math</td>
+						<td>Computer</td>
+					</tr>
+					<tr>
+						<td>Physics</td>
+						<td>Chemistry</td>
+						<td>Medical</td>
+					</tr>
+				</table>
+			</td>
+			<td>350$</td>
+			<td>150$</td>
+		</tr>
+	</table></td>
+		</tr>
+	</table>
+</body>
+</html>
