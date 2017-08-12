@@ -1,20 +1,8 @@
-/*sibling selectors*/
+/*Height and width properties*/
 
-#sib-div p{
-	color: orange;
-}
-
-/* ~ This sibling selector selects all elements that are siblings of a specified element.*/
-#sib-div ~ p{
-	color: green;
-}
-
- /*+ refers immediate sibling of specified element*/
-#sib-div2 + p{
-	color: silver;
-}
-
-/*> refers to immediate child of specified element*/
-#sib-div2 > p{
+#div1{
 	color:red;
+	background: orange;
+	height: 200px;
+	width: 200px;
 }
