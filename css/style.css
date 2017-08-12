@@ -16,3 +16,17 @@ div{
 h4{
 	color: brown;
 }
+
+/*Different states of anchor tag - pseudo classes*/
+#a-tag:link{
+	color:brown;
+}
+#a-tag:visited{
+	color: grey;
+}
+#a-tag:hover{
+	color: orange;
+}
+#a-tag:active{
+	color:green;
+}
