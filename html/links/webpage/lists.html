@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lists</title>
+</head>
+<body>
+<!-- creating webpage layout using table is not recommended, instead we have to use div tag and style accordingly using css -->
+	<table border="2" width="1000" height="600">
+		<tr>
+			<td colspan="2" height="100"><h1>Heading</h1></td>
+		</tr>
+		<tr>
+			<td colspan="2" height="50">Navigation Area</td>
+		</tr>
+		<tr>
+			<td width="200" valign="top">
+				<a href="index.html">Home Page</a><br>
+				<a href="lists.html">List Page</a><br>
+				<a href="table.html">Table Page</a><br>
+			</td>
+			<td><h1>Introduction to the course</h1><hr>
+			<h3><u>HTML &amp; CSS</u></h3>
+			<p>We&apos;re learning <b>Html &amp; Css</b> from this <i>video series</i></p>
+			<p>We&apos;re <small>trying</small> to make <mark>ourselves</mark> a perfect HTNL Designer / <del>Developer</del></p>
+			<p>We need to learn Html 1<sup>st</sup> to become web developer</p> <!-- sup> tag defines superscript text. -->
+			<p>H<sub>2</sub>O is the water formula in chemistry</p> <!-- <sub> tag defines subscript text. -->
+			<hr>
+
+			<h3><u>Skills which you'll get</u></h3>
+			<ul type="square">  <!-- other values disc, circle -->
+				<li>Full command on HTML</li>
+				<li>Ability to create Interesting websites</li>
+				<li>Will become a web designer</li>
+			</ul>
+
+			<h3><u>List of some other languages</u></h3>
+			<ol type="a">  <!-- we can use Roman numbers(I, II, III...)/(i, ii...), alphabets(small, caps as well) to list -->
+				<li>PHP</li>
+				<li>JavaScript</li>
+				<li value="5">Python</li>
+				<li>Ruby on Rails</li>
+				<li value="3">Java</li>
+				<li>SQL</li>
+			</ol>
+
+			<!-- Nested Lists -->
+			<ol>
+				<li>Web Designer
+					<ol type="a">
+						<li>HTML, HTML5</li>
+						<li>CSS, CSS3</li>
+						<li>Photoshop</li>
+					</ol>
+				</li>	
+				<li>Web Developer
+					<ol type="a">
+						<li>HTML &amp; CSS
+							<ul>
+								<li>HTML</li>
+								<li>HTML5</li>
+								<li>CSS</li>
+								<li>CSS3</li>
+							</ul>
+						</li>
+						<li>JavaScript</li>
+						<li>Jquery</li>
+						<li>PHP</li>
+					</ol>
+				</li>	
+				<li>Graphic Designer</li>
+			</ol>
+
+			<!-- Nested Lists using Unordered Lists -->
+			<ul>
+				<li>Web Designer
+					<ul>
+						<li>HTML, HTML5</li>
+						<li>CSS, CSS3</li>
+						<li>Photoshop</li>
+					</ul>
+				</li>	
+				<li>Web Developer
+					<ul>
+						<li>HTML &amp; CSS
+							<ul>
+								<li>HTML</li>
+								<li>HTML5</li>
+								<li>CSS</li>
+								<li>CSS3</li>
+							</ul>
+						</li>
+						<li>JavaScript</li>
+						<li>Jquery</li>
+						<li>PHP</li>
+					</ul>
+				</li>	
+				<li>Graphic Designer</li>
+			</ul>
+
+			<!-- Description Lists -->
+			<dl>
+				<dt><u>HTML:</u></dt>
+				<dd>- HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages.</dd>
+				<dt><u>JavaScript:</u></dt>
+				<dd>- JavaScript is an open source and most popular client side scripting language supported by all browsers.</dd>
+			</dl></td>
+				</tr>
+	</table>
+</body>
+</html>
