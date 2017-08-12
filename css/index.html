@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CSS</title>
-	<!-- internal css -->
-	<style>
-		#sec-para{
-			color:white;
-			background: orange;
-		}
-	</style>
-	<!-- Linking External css file -->
+	<title>Sibling and Child Selectors of Css</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<!-- inline css -->
-	<p style="color:white; background: grey">Some text in para</p>
-	<p id="sec-para">This is Second Paragraph</p>
+	<!-- The sibling selectors lecture starts -->
 
-	<!-- External css -->
-	<p id="third-para">This is third paragraph</p>
-
-	<h1>Heading</h1>
-	<!-- The div tag is generally used to group HTML elements together and apply CSS styles to many elements at once -->	
-	<div class="fst-div">
-		This is a div tag
-		<p>para inside div</p>
+	<div id="sib-div">
+		<p>This is the first p tag in the sibling's lecture</p>
+		<p>This is the second p tag in the sibling's lecture</p>
 	</div>
 
-	<div class="fst-div">This div tag is selected in css by its class</div>
-	<h4>This is the sub heading</h4>
+	<p>This is the first p tag after sib-div</p>
+	<p>This is the second p tag after sib-div</p>
 
-	<a href="../html/index.html" id="a-tag">Images page</a>
-	
+	<div id="sib-div2">
+		<p>This is the first p tag in the sibling's lecture</p>
+		<p>This is the second p tag in the sibling's lecture</p>
+		<u>
+			<p>This is a sub paragraph</p>
+		</u>
+	</div>
+
+	<p>This para is immediate sibling of sib-div2</p>
+	<p>This para is also sibling of sib-div2 but not immediate</p>
+
+	<!-- The sibling selectors lecture Ends -->
 </body>
 </html>

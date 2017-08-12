@@ -1,32 +1,20 @@
-#third-para{
-	color:white;
-	background: brown;
-}
+/*sibling selectors*/
 
-div{
-	color:white; 
-	background: grey;
-}
-
-.fst-div{
-	color:white;
-	background: grey;
-}
-
-h4{
-	color: brown;
-}
-
-/*Different states of anchor tag - pseudo classes*/
-#a-tag:link{
-	color:brown;
-}
-#a-tag:visited{
-	color: grey;
-}
-#a-tag:hover{
+#sib-div p{
 	color: orange;
 }
-#a-tag:active{
-	color:green;
+
+/* ~ This sibling selector selects all elements that are siblings of a specified element.*/
+#sib-div ~ p{
+	color: green;
+}
+
+ /*+ refers immediate sibling of specified element*/
+#sib-div2 + p{
+	color: silver;
+}
+
+/*> refers to immediate child of specified element*/
+#sib-div2 > p{
+	color:red;
 }
