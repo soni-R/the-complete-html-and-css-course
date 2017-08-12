@@ -2,7 +2,7 @@
 
 #div1{
 	color:red;
-	background: orange;
-	height: 200px;
-	width: 200px;
+	background-color: orange;
+	height: 50%;  /*pixels(px) and percents(%) are measurements for elements in css*/
+	width: 50%;
 }
