@@ -4,6 +4,7 @@
 	background-color: orange;
 	height: 200px; 
 	width: 200px;
+	float: left;
 	margin-top: 100px;
 	margin-left: 100px;
 	border: 6px double red; /*shorthand property of border - prefered most*/
@@ -12,13 +13,11 @@
 .div2{
 	color:blue;
 	background-color:silver;
-	height: 100px;  
-	width: 200px;
-	margin: 50px 200px;
-	padding: 100px 10px 100px 100px;
-	border-width: 4px;
-	border-style: dotted;
-	border-color: black;
+	margin: 50px 50px;
+	padding: 50px 10px 50px 50px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: orange;
 
 }	
 
@@ -27,8 +26,9 @@
 	background-color:tan;
 	height: 100px;  
 	width: 100px;
-	margin: 50px 100px;
+	margin: 100px 100px;
 	padding: 50px;
+	float: right;
 	border-left:  5px brown dashed;
 	border-right:  5px brown dotted;
 	border-top:  5px green double;
