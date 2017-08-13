@@ -1,66 +1,12 @@
-
-.div1{
-	color:red;
-	background-color: orange;
-	height: 200px; 
-	width: 200px;
-	float: left;
-	margin-top: 100px;
-	margin-left: 100px;
-	border: 6px double red; /*shorthand property of border - prefered most*/
+ul{
+	list-style-type: circle; /*some other values disc|square|circle|none*/
 }
 
-.div2{
-	color:blue;
-	background-color:silver;
-	margin: 50px 50px;
-	padding: 50px 10px 50px 50px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: orange;
+ul li{
+	float: left;
+	margin: 10px;
+}
 
-}	
-
-.div3{
-	color:blue;
-	background-color:tan;
-	height: 100px;  
-	width: 100px;
-	margin: 100px 100px;
-	padding: 50px;
-	float: right;
-	border-left:  5px brown dashed;
-	border-right:  5px brown dotted;
-	border-top:  5px green double;
-	border-bottom:  5px green solid;
-}	
-
-.div4{
-	color:blue;
-
-	/*shorthand property for background*/
-	background: url("../images/flowers.jpg") no-repeat bottom left;
-	background-size: 200px 100px;
-
-	/*background-image: url("../images/flowers.jpg");
-	background-repeat:no-repeat;
-	background-position: center;*/
-	height: 300px;  
-	width: 500px;
-	margin: 50px 100px;
-	padding: 50px;
-	/*To style specific side border*/
-	border-top-width: 5px;
-	border-top-color: orange;
-	border-top-style:dashed;
-	border-right-width: 2px;
-	border-right-color: blue;
-	border-right-style:dotted;
-	border-bottom-width: 5px;
-	border-bottom-color: black;
-	border-bottom-style:dashed;
-	border-left-width: 5px;
-	border-left-color: red;
-	border-left-style:solid;
-
-}	
+ol{
+	list-style-type: upper-roman; /*some other values lower-alpha|upper-roman|lower-roman*/
+}
