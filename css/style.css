@@ -1,20 +1,59 @@
-/*Height and width properties*/
 
 .div1{
 	color:red;
 	background-color: orange;
-	height: 200px;  /*pixels(px) and percents(%) are measurements for elements in css*/
+	height: 200px; 
 	width: 200px;
 	margin-top: 100px;
 	margin-left: 100px;
+	border: 6px double red; /*shorthand property of border - prefered most*/
 }
 
 .div2{
 	color:blue;
-	background-color:grey;
-	height: 100px;  /*pixels(px) and percents(%) are measurements for elements in css*/
+	background-color:silver;
+	height: 100px;  
 	width: 200px;
 	margin: 50px 200px;
 	padding: 100px 10px 100px 100px;
+	border-width: 4px;
+	border-style: dotted;
+	border-color: black;
+
 }	
-	
+
+.div3{
+	color:blue;
+	background-color:tan;
+	height: 100px;  
+	width: 100px;
+	margin: 50px 100px;
+	padding: 50px;
+	border-left:  5px brown dashed;
+	border-right:  5px brown dotted;
+	border-top:  5px green double;
+	border-bottom:  5px green solid;
+}	
+
+.div4{
+	color:blue;
+	background-color:tan;
+	height: 100px;  
+	width: 100px;
+	margin: 50px 100px;
+	padding: 50px;
+	/*To style specific side border*/
+	border-top-width: 5px;
+	border-top-color: orange;
+	border-top-style:dashed;
+	border-right-width: 2px;
+	border-right-color: blue;
+	border-right-style:dotted;
+	border-bottom-width: 5px;
+	border-bottom-color: black;
+	border-bottom-style:dashed;
+	border-left-width: 5px;
+	border-left-color: red;
+	border-left-style:solid;
+
+}	
