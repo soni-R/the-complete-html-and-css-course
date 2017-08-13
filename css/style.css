@@ -1,9 +1,9 @@
 ul{
-	list-style-type: circle; /*some other values disc|square|circle|none*/
+	list-style-image: url("../images/bullet-point.png");
 }
 
 ul li{
-	float: left;
+	font-size: 25px;
 	margin: 10px;
 }
 
