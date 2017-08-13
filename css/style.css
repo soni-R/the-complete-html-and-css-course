@@ -1,10 +1,22 @@
 ul{
-	list-style-image: url("../images/bullet-point.png");
+	list-style-type: none;
+	background: silver;
+	padding: 10px;
 }
 
 ul li{
-	font-size: 25px;
-	margin: 10px;
+	text-align: center;
+	float:left;
+	margin: 10px 100px;
+	background: orange;
+	border: 2px solid brown;
+	color:white;
+	padding:10px;
+	width: 100px;
+}
+
+ul li:hover{
+	background: brown;
 }
 
 ol{
