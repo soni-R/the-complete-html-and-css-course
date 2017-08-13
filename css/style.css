@@ -37,9 +37,16 @@
 
 .div4{
 	color:blue;
-	background-color:tan;
-	height: 100px;  
-	width: 100px;
+
+	/*shorthand property for background*/
+	background: url("../images/flowers.jpg") no-repeat bottom left;
+	background-size: 200px 100px;
+
+	/*background-image: url("../images/flowers.jpg");
+	background-repeat:no-repeat;
+	background-position: center;*/
+	height: 300px;  
+	width: 500px;
 	margin: 50px 100px;
 	padding: 50px;
 	/*To style specific side border*/
