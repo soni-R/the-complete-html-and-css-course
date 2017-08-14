@@ -1,15 +1,23 @@
-#para1{
-	height:300px;
-	width: 300px;
-	background: silver;
-	text-align: justify; /*other values text-align: left|right|center|justify;*/
-	padding: 10px;
-	text-decoration: none;  /*other values text-decoration: none|underline|overline|line-through;*/
-	text-transform: capitalize;  /*text-transform: none|capitalize|uppercase|lowercase;*/
-	text-indent: 100px;
-	text-shadow: 5px 5px 3px white;
-	font-size: 20px;
-	font-weight: bold;
-	font-style: italic;
-	font-family: "Times new roman", Times, serif;
+table{
+	width: 800px;
+	border-collapse: collapse;
+}
+
+tr{
+	
+}
+
+td{
+	border: 1px solid black;
+	text-align: center;
+}
+
+th{
+	padding: 10px 20px;
+	border: 1px solid black;
+	background: orange;
+}
+
+.even{
+	background:silver;
 }
