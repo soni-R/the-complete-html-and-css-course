@@ -1,24 +1,11 @@
-ul{
-	list-style-type: none;
+#para1{
+	height:300px;
+	width: 300px;
 	background: silver;
+	text-align: justify; /*other values text-align: left|right|center|justify;*/
 	padding: 10px;
-}
-
-ul li{
-	text-align: center;
-	float:left;
-	margin: 10px 100px;
-	background: orange;
-	border: 2px solid brown;
-	color:white;
-	padding:10px;
-	width: 100px;
-}
-
-ul li:hover{
-	background: brown;
-}
-
-ol{
-	list-style-type: upper-roman; /*some other values lower-alpha|upper-roman|lower-roman*/
+	text-decoration: none;  /*other values text-decoration: none|underline|overline|line-through;*/
+	text-transform: capitalize;  /*text-transform: none|capitalize|uppercase|lowercase;*/
+	text-indent: 100px;
+	text-shadow: 5px 5px 3px white;
 }
