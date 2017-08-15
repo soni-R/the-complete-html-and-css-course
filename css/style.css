@@ -1,23 +1,46 @@
-table{
-	width: 800px;
-	border-collapse: collapse;
+form{
+	background: silver;
+	width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid gray;
 }
 
-tr{
+input[type = "text"]{
+	border:1px solid black;
+	width: 250px;
+	height: 30px;
+}
+
+input[type = "password"]{
+	border:1px solid black;
+	height: 30px;
+	width: 250px;
+}
+
+select{
+	height: 30px;
+	width: 250px;
+}
+
+textarea{
+	resize: none;
+	width: 250px;
+	height: 150px;
+	border:1px solid gray;
+}
+
+input[type="submit"]{
+	height: 30px;
+	width: 250px;
+	background: gray;
+	border:2px solid black;
+	color: white;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover{
+	background: white;
+	color: gray;
 	
-}
-
-td{
-	border: 1px solid black;
-	text-align: center;
-}
-
-th{
-	padding: 10px 20px;
-	border: 1px solid black;
-	background: orange;
-}
-
-.even{
-	background:silver;
 }

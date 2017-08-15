@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Css tables</title>
+		<title>Form</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<table>
-			<tr>
-				<th style="width:20px;">S.no</th>
-				<th>Employee name</th>
-				<th style="width:20px;">Salary</th>
-				<th style="width:20px;">Bonus</th>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>John</td>
-				<td>5000</td>
-				<td>Yes</td>
-			</tr>
-			<tr class="even">
-				<td>2</td>
-				<td>Sam</td>
-				<td>6000</td>
-				<td>No</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>Mark</td>
-				<td>4000</td>
-				<td>Yes</td>
-			</tr>
-			<tr class="even">
-				<td>4</td>
-				<td>Robert</td>
-				<td>4500</td>
-				<td>Yes</td>
-			</tr>
-		</table>
+		<form action="form-process.php" method="post" enctype="multipart/form-data">
+		<!-- multipart/form-data value is used when our form has file upload input.
+			enctype attribute can be used only if method="post". -->
+			<table>
+				<tr>
+					<td>Upload your image</td>
+					<td><input type="file" name="up_image"></td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="f_name" placeholder="Enter your First name"></td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td><input type="text" name="l_name" placeholder="Enter your Last name"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="Password" name="password" placeholder="Enter your password"></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="gender" value="male">Male
+						<input type="radio" name="gender"  value="female">Female
+					</td>
+				</tr>		
+				<tr>
+					<td>Your Skills</td>
+					<td>
+						<input type="checkbox" value="html">HTML<br>
+						<input type="checkbox" value="php">PHP<br>
+						<input type="checkbox" value="css">CSS
+					</td>
+				</tr>
+				<tr>
+					<td>Your Country</td>
+					<td>
+						<select name="sel_country">
+							<option selected>Select your Country</option>
+							<option value="us">US</option>
+							<option value="australia">Australia</option>
+							<option value="canada">Canada</option>
+							<option value="germany">Germany</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Comments</td> 
+					<td>
+						<textarea></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td> 
+					<td>
+						<input type="submit" value="Save" name="submit_butn">
+					</td>
+				</tr>
+
+			</table>
+		</form>
 	</body>
 </html>
