@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+body{
+
+}
+
+	#container{
+		
+		width: 1200px;
+		margin: 0 auto;
+		border:1px solid black;
+	}
+
+		#header{
+			background: brown;
+			width:1200px;
+		} 
+			#header h1{
+				color: white;
+				padding: 30px;	
+			}
+
+		#nav{
+			background: black;
+			width:1200px;
+			
+		}
+			#nav li{
+				float:left;
+				color: white;
+				padding: 10px 0;
+				text-align: center;
+				width: 240px;
+				list-style:none;
+			}
+
+			#nav li:hover{
+				color: brown;
+				background: white;
+			}
+
+		#content{
+			
+			width:1200px;
+			
+		}
+
+			.left-side{
+				
+				width:900px;
+				
+				float: left;
+			}
+
+				.main-post{
+					margin: 20px 5px 20px 20px;
+					background: silver;
+					width: 500px;
+					padding: 20px;
+					float: left;
+				}
+
+				.main-post img{
+					width:490px;
+					height: 300px;
+				} 
+
+				.main-post-title{
+					font-style: 15px;
+					color: brown;
+					text-decoration: underline;
+					text-align: center;
+				}
+
+				.main-post-desc{
+					
+				}
+
+				.main-post-desc a{
+					color: brown;
+					font-size: 14px;
+					text-decoration: none;
+					margin: 5px;
+					float: right;
+				}
+
+				.sub-post{
+					float: left;
+					width: 280px;
+					background: silver;
+					margin: 20px 20px 20px 0;
+					height: 434px;
+				}
+
+					.sub-post img{
+						width: 240px;
+						height: 170px;
+						margin-left: 20px;
+						margin-top: 10px;
+					} 
+
+					.sub-post-title{					
+						color: brown;
+						text-align: center;
+						margin: 10px;
+					}
+
+					.sub-post-desc{
+						padding:10px; 
+					}
+
+					.sub-post-desc a{
+						color: brown;
+						font-size: 14px;
+						text-decoration: none;
+						margin: 5px;
+						float: right;
+				}
+
+
+			.right-side{
+				background: silver;
+				width: 260px;
+				height: 360px;
+				float: left;
+				padding: 20px;
+			}
+
+				.right-top{
+
+				}
+				.right-top h2{
+					font-family: arial;
+					width: 300px;
+					text-align: center;
+					padding: 10px 0;
+					text-decoration: underline;
+				}
+				.lat_upd{
+					padding: 10px;
+					background: black;
+					color:white;
+					margin: 10px 0;
+					text-align: center;
+					border:2px solid gray;
+				}
+				.lat_upd:hover{
+					background: white;
+					color: black;
+					border:2px solid black;
+				}
+
+
