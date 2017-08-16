@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web site</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<iframe src="includes/header.html" id="head_iframe"></iframe>
+		<div id="content">
+			<div class="left-side">
+			<h2>Fill The form</h2>
+				<form action="form-process.php" method="post" enctype="multipart/form-data">
+					<table>
+						<tr>
+							<td>Upload your image</td>
+							<td><input type="file" name="up_image"></td>
+						</tr>
+						<tr>
+							<td>Name</td>
+							<td><input type="text" name="f_name" placeholder="Enter your First name"></td>
+						</tr>
+						<tr>
+							<td>Last Name</td>
+							<td><input type="text" name="l_name" placeholder="Enter your Last name"></td>
+						</tr>
+						<tr>
+							<td>Password</td>
+							<td><input type="Password" name="password" placeholder="Enter your password"></td>
+						</tr>
+						<tr>
+							<td>Gender</td>
+							<td>
+								<input type="radio" name="gender" value="male">Male
+								<input type="radio" name="gender"  value="female">Female
+							</td>
+						</tr>		
+						<tr>
+							<td>Your Skills</td>
+							<td>
+								<input type="checkbox" value="html">HTML<br>
+								<input type="checkbox" value="php">PHP<br>
+								<input type="checkbox" value="css">CSS
+							</td>
+						</tr>
+						<tr>
+							<td>Select your Country</td>
+							<td>
+								<select name="sel_country">
+									<option selected>Select your Country</option>
+									<option value="us">US</option>
+									<option value="australia">Australia</option>
+									<option value="canada">Canada</option>
+									<option value="germany">Germany</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Comments</td> 
+							<td>
+								<textarea></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td></td> 
+							<td>
+								<input type="submit" value="Save" name="submit_butn">
+							</td>
+						</tr>
+
+					</table>
+		</form>
+			</div>
+			<iframe src="includes/right-side.html" id="right-side-iframe"></iframe>
+			<div style="clear: both;"></div>
+		</div>
+		<div id="footer">Copyright &copy; 2017</div>
+	</div>
+</body>
+</html>
