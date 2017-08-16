@@ -125,7 +125,7 @@ body{
 			.right-side{
 				background: silver;
 				width: 260px;
-				height: 360px;
+				height: 410px;
 				float: left;
 				padding: 20px;
 			}
@@ -135,7 +135,7 @@ body{
 				}
 				.right-top h2{
 					font-family: arial;
-					width: 300px;
+					width: 260px;
 					text-align: center;
 					padding: 10px 0;
 					text-decoration: underline;
@@ -154,4 +154,14 @@ body{
 					border:2px solid black;
 				}
 
+/*iframe coding*/
+#head_iframe{
+	border:0;
+	width: 1200px;
+}
 
+#right-side-iframe{
+	border:0;
+	height: 500px;
+	width: 300px;
+}
