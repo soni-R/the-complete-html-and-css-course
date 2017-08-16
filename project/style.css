@@ -125,7 +125,7 @@ body{
 			.right-side{
 				background: silver;
 				width: 260px;
-				height: 410px;
+				height: 430px;
 				float: left;
 				padding: 20px;
 			}
@@ -153,15 +153,59 @@ body{
 					color: black;
 					border:2px solid black;
 				}
+	#footer{
+		padding: 20px;
+		background: brown;
+		text-align: center;
+		color:white;
+	}		
+
+ /* contact us page*/	
+ .left-side form{
+ 	margin:20px;
+ }	
+
+ form input{
+ 	margin:10px;
+ }
+
+ .left-side form input[type="text"]{
+ 	width: 250px;
+ 	height: 30px;
+ 	border:1px solid black;
+ 	padding: 3px;
+ }	
+
+ .left-side form input[type="password"]{
+ 	width: 250px;
+ 	height: 30px;
+ 	border:1px solid black;
+ 	padding: 3px;
+ }	
+
+form select{
+	width: 250px;
+ 	height: 30px;
+ 	border:1px solid black;
+ 	margin:10px;
+}
+
+textarea{
+	width: 250px;
+ 	height: 150px;
+ 	margin:10px;
+}
+
 
 /*iframe coding*/
 #head_iframe{
 	border:0;
+	height: 135px;
 	width: 1200px;
 }
 
 #right-side-iframe{
 	border:0;
-	height: 500px;
+	height: 470px;
 	width: 300px;
 }
